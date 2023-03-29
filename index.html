@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+<!-- 8percent made this template
+You may use this template without crediting me.
+-->
+
+<html>
+<head>
+	<title>Car Clicker </title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<h1>Car Clicker</h1>
+	<img id="car" src="assets/images/defaultcar.gif" width="320" height="140" onclick="addToMiles(clickingPower)">
+	<p>Miles Driven: <span id="miles">0</span></p>
+	<script src="script.js"></script>
+
+     <!-- the upgrade buttons-->
+
+	<button onclick="buyTaxi()">Taxi [<span id=taxicost>15</span>] -- <span id="taxis">0</span></button>
+	<button onclick="buyOldTruck()">Old Truck [<span id=oldtruckcost>100</span>] -- <span id="oldtrucks">0</span></button>
+</body>
+</html>
